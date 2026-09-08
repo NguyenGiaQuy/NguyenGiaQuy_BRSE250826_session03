@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form method="post">
+      <table>
+        <thead>
+          <tr>
+            <th colspan="4">SỞ THÍCH CỦA BẠN</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td colspan="4">
+              <label for="name">Họ và tên</label>
+              <input type="text" name="name" id="name" />
+            </td>
+          </tr>
+          <tr>
+            <td colspan="4">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" />
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="3">Sở thích</td>
+            <td>
+              <input type="checkbox" name="hobby" id="sport" value="sport" />
+              <label for="sport">Thể thao</label>
+            </td>
+            <td>
+              <input type="checkbox" name="hobby" id="music" value="music" />
+              <label for="music">Âm nhạc</label>
+            </td>
+            <td>
+              <input type="checkbox" name="hobby" id="rbook" value="rbook"/>
+              <label for="rbook">Đọc sách</label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="checkbox" name="hobby" id="btweb" value="btweb" />
+              <label for="btweb">Lướt web</label>
+            </td>
+            <td>
+              <input type="checkbox" name="hobby" id="game" value="game" />
+              <label for="game">Chơi game</label>
+            </td>
+            <td>
+              <input type="checkbox" name="hobby" id="movie" value="movie" />
+              <label for="movie">Điện ảnh</label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="checkbox" name="hobby" id="travel" value="travel" />
+              <label for="travel">Du lịch</label>
+            </td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td></td>
+            <td>
+              <button type="submit">Gửi thông tin</button>
+            </td>
+            <td>
+              <button type="reset">Nhập lại</button>
+            </td>
+          </tr>
+        </tfoot>
+      </table>
+    </form>
+  </body>
+</html>
